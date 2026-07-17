@@ -16,7 +16,6 @@ local newFennecRepo(repoName, default_branch = 'snapshot') = orgs.newRepo(repoNa
   homepage: "https://projects.eclipse.org/projects/modeling.fennec",
   branch_protection_rules: [
     branchProtectionRule('main') {},
-    branchProtectionRule('snapshot') {},
   ],
 };
 
